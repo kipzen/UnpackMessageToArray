@@ -38,8 +38,6 @@ foreach (string tele in arrayimgphonedetails.Distinct())
     {
         Tel = Tel + 1;
        // Console.WriteLine(string.Format("Phone: No: " + Tel + " " + tele));
-
-
         if (Accphone == "")
         {
             Accphone = tele;
@@ -48,7 +46,7 @@ foreach (string tele in arrayimgphonedetails.Distinct())
         {
             Accphone = Accphone + "^" + tele;
         }
-        //  Console.WriteLine(string.Format("Phone: No:   " + tele));
+      //   Console.WriteLine(string.Format("Phone: No:   " + tele));
 
     }
 
