@@ -66,6 +66,9 @@ foreach (string tele in arrayimgphonedetails.Distinct())
     }
 
 }
+
+
+
 Console.WriteLine(string.Format("Phone: No:" + Accphone.Replace("TEL.","")));
 Console.WriteLine(string.Format("Email Address:" + Emails));
 string accountname = NamedetailsDAO.Substring(3, AccountDetailscount);
