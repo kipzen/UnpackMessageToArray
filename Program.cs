@@ -31,6 +31,7 @@ int Telem = 0;
 string Accphone = "";
 string Emails = "";
 
+// Loop for distinct
 foreach (string tele in arrayimgphonedetails.Distinct())
 {  
 
